@@ -1,0 +1,190 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #333;
+}
+
+/* Estilos del héroe */
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero-title {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+}
+
+/* Estilos de los servicios */
+.services {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.service-description {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilos de los proyectos */
+/* Estilo para la sección de proyectos */
+.projects {
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 50px 0; /* Espaciado interior */
+    text-align: center; /* Alineación de contenido */
+    position: relative; /* Posición relativa para que los elementos internos sean posicionados respecto a esta sección */
+    display: flex;
+    padding: 120px;
+}
+
+/* Estilo para el título de la sección */
+.projects .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las fotos y descripciones de proyectos (ajusta según tus necesidades) */
+.projects .project {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la frase "Nuestros Proyectos" */
+.projects .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: absolute; /* Posición absoluta para superponerla a las fotos */
+    top: -40px; /* Ajusta la posición vertical según sea necesario */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+}
+
+
+.project {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la sección de contacto */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-description {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #45A049;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/* Estilos de medios */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+}
